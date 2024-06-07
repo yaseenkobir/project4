@@ -1,0 +1,133 @@
+/*font link*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+ 
+/*common css start*/
+body{
+	margin: 0;
+	font-family:  "Playfair Display", serif;
+	font-size: 16px ;
+	font-weight: 400 ;
+	color:#626262 ;
+}
+/*common css end*/
+/*header start*/
+header{
+	padding: 30px 0;
+/*	border: 1px solid;*/
+}
+.container{
+	overflow: hidden;
+	margin: 0 auto;
+	width: 90%;
+/*	border: 1px solid;*/
+}
+.logo{
+	margin-top: 10px;
+	float:left;
+	width: 12%;
+/*	border: 1px solid;*/
+}
+.w100{
+	width: 100%;
+}
+.menu{
+	float:right;
+	width: 65%;
+/*	border: 1px solid;*/
+}
+.menu ul{
+	float:right;
+	list-style: none;
+}
+.menu ul li{
+	float: left;
+}
+.menu ul li a{
+	display: inline-block;
+	margin: 0px 50px;
+	color: #626262;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-bottom: 1px solid  transparent;
+	transition: .33s linear;
+
+
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid  #626262;
+
+}
+/*header end*/
+
+/*banner start*/
+.banner{}
+.b_img{}
+.b_img img{}
+/*banner end*/
+
+/*gateway start*/
+.gateway{
+	padding: 100px 0 30px ;
+}
+.container2{
+	margin: 0 auto;
+	width: 80%;
+/*	border: 1px solid;*/
+}
+.g_content{}
+.light{
+	 font-family: "Ubuntu", sans-serif;
+	 font-size: 14px;
+	 font-weight: 300;
+	  text-transform: uppercase;
+
+}
+.title{
+	margin: 15px 0 25px;
+	font-size: 30px;
+	font-weight: 400;
+}
+.text{
+	margin: 0;
+	line-height: 24px; 
+
+}
+.g_link{
+	margin-top: 50px;
+	display: block;
+	color: #626262 ;
+	text-decoration: none;
+
+}
+
+/*gateway end*/
+
+/*blog start*/
+.blog{
+	padding: 0 0 100px;
+}
+.blog_c{
+	overflow: hidden;
+}
+.blog_single{
+	margin-top: 70px;
+
+	float: left;
+    width: 47%; 
+    box-sizing: border-box;
+}
+.blog_single:nth-child(even){
+	margin-left: 6%;
+}
+.blog_img{
+	margin-bottom: 20px;
+
+}
+.blog_img img{}
+
+/*blog start*/
