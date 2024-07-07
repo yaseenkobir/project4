@@ -131,3 +131,132 @@ header{
 .blog_img img{}
 
 /*blog start*/
+
+/*newsletter start*/
+.newsletter{
+	padding: 50px 0;
+	background: #f0f0f0;
+}
+
+.container3{
+	width: 60%;
+	margin: 0 auto;
+}
+.signup{
+	text-align: center;
+}
+.signup h1{
+	font-size: 30px;
+	margin-bottom: 80px;
+}
+.for_from{
+	width: 350px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	position: relative; 
+}
+.for_from input{
+	border: none;
+	background: transparent;
+	border-bottom: 1px solid black;
+	width: 290px;
+	font-size: 18px;
+	padding: 10px 50px 10px 10px;
+	outline: none;
+
+}
+
+.for_from button{
+	border: none;
+	background: transparent;
+	position: absolute;
+	top: 10px;
+	right: 0px;
+}
+/*newsletter end*/
+.blog2{
+	padding: 100px 0;
+}
+
+.btn{}
+.container4{
+	text-align: center;
+}
+
+.container4{
+	text-align: center;
+
+}
+
+.container4{
+	text-align: center;
+
+}
+.container4 button{
+	padding: 30px 70px;
+	font-size: 24px;
+	border: none;
+	border: 1px solid #626262;
+	background: transparent;
+	transition: .5s;
+}
+.container4 button:hover{
+	color: white;
+	background-color: #626262;
+	border: 1px solid #ffffff;
+}
+
+/* footer start*/
+
+
+.container5 {
+    margin: 0 auto;
+    width: 90%;
+    overflow: hidden;
+    padding: 26px 0;
+}
+
+.pages ul {
+    padding-left: 0;
+    overflow: hidden;
+}
+
+.pages ul li {
+    margin-right: 15px;
+    list-style: none;
+    float: left;
+    border-bottom: 1px solid transparent;
+    transition: 0.33s linear;
+}
+
+.pages ul li a {
+    font-size: 16px;
+    color: #000000;
+    text-decoration: none;
+}
+
+footer .pages {
+	display: flex;
+	justify-content: space-between;
+	align-self: center;
+}
+ 
+ footer{
+ 	margin-top: 100px;
+ 	background: #f0f0f0;
+ }
+ /* footer end */
+
+
+
+
+
+
+	
+
+
+	
+
+
+
